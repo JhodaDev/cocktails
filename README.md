@@ -10,6 +10,8 @@ Para instalar las dependencias necesarias, ejecute el siguiente comando en la te
 npm install
 ```
 
+Este proyecto utiliza MongoDB como base de datos, por lo que asegúrese de tener MongoDB instalado y en ejecución antes de continuar.
+
 ## Ejecución
 
 Para ejecutar el proyecto, ejecute el siguiente comando en la terminal:
