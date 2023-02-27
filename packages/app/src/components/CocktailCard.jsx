@@ -16,7 +16,7 @@ export default function CocktailCard({ cocktail, custom }) {
     } = cocktail;
 
     const { data: response } = await axios.post(
-      "http://localhost:8080/api/cocktail",
+      "/api/cocktail",
       {
         strDrink,
         strCategory,
@@ -33,7 +33,7 @@ export default function CocktailCard({ cocktail, custom }) {
 
   const handleDelete = async () => {
     const { data } = await axios.delete(
-      `http://localhost:8080/api/cocktail/${cocktail._id}`
+      `/api/cocktail/${cocktail._id}`
     );
 
     if (data.code === 200) {
