@@ -21,3 +21,6 @@ npm run dev:api
 ```
 
 Este comando iniciará el servidor de la API y estará listo para recibir solicitudes. Abra su navegador y visite la URL `http://localhost:8080` para interactuar con la interfaz.
+
+De igual manera puede acceder a la demo de la aplicación desde el siguiente link:
+https://polar-thicket-33524.herokuapp.com/
