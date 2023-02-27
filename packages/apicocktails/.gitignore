@@ -1,0 +1,4 @@
+# ignorar los node_mules
+node_modules
+.env
+package-lock.json

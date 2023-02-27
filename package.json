@@ -1,0 +1,17 @@
+{
+  "name": "pruebatecnica",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --prefix packages/app",
+    "start": "npm run start --prefix packages/apicocktails",
+    "dev:api": "npm run build --prefix packages/apicocktails && npm run start:api"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
